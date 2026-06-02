@@ -1,0 +1,213 @@
+{
+  "github_source_repo": "https://github.com/serpcompany/shooshtime-downloader",
+  "serply_link": "https://serp.ly/shooshtime-downloader",
+  "app_name": "Shooshtime Video Downloader",
+  "short_description": "Download & Save Shooshtime Videos Easily for Offline Viewing (Browser Extension)",
+  "long_description": "Shooshtime Downloader is a browser extension that lets you save supported videos from Shooshtime video pages. Open any compatible Shooshtime video, let the player load, and use the page-level button or popup to detect available media options. The extension works inside your browser so you do not need external downloader sites or desktop tools.",
+  "main_video": "",
+  "featured_image": "",
+  "screenshots": [
+    "https://apps.serp.co/media/optimized-products/shooshtime-downloader-fullscreen-01-07816979e0.webp",
+    "https://apps.serp.co/media/optimized-products/shooshtime-downloader-fullscreen-02-3604f9b366.webp",
+    "https://apps.serp.co/media/optimized-products/shooshtime-downloader-fullscreen-03-eb6a6d4d33.webp",
+    "https://apps.serp.co/media/optimized-products/shooshtime-downloader-fullscreen-04-2059d9710e.webp"
+  ],
+  "chromestore_link": "",
+  "firefoxstore_link": "",
+  "other_links": [],
+  "faqs": [
+    {
+      "question": "How do I download a Shooshtime video?",
+      "answer": "Open a supported Shooshtime video page, let the player load, then use the extension button or popup to choose a detected media option and start the download."
+    },
+    {
+      "question": "Do I need to press play first?",
+      "answer": "Yes. The extension detects media after the Shooshtime player initializes, so starting playback helps ensure all available options are found."
+    },
+    {
+      "question": "What formats does the extension support?",
+      "answer": "The extension outputs MP4 files. Input formats depend on what the Shooshtime player exposes on the video page."
+    },
+    {
+      "question": "Can I use this extension on any Shooshtime video?",
+      "answer": "The extension works on supported Shooshtime video pages. Only download content you have the right to save."
+    },
+    {
+      "question": "How many downloads do I get with the trial?",
+      "answer": "The trial includes 3 free downloads so you can test the workflow before purchasing unlimited access."
+    }
+  ],
+  "permissions": [
+    {
+      "name": "",
+      "description": "Keep a personal copy of content you have permission to archive"
+    },
+    {
+      "name": "",
+      "description": "Only download content you own or have explicit permission to save"
+    }
+  ],
+  "features": [
+    "Save supported Shooshtime videos directly from the watch page",
+    "Button-driven detection that works after the player loads",
+    "Browser-based workflow with no external tools required",
+    "Quality selection when multiple variants are available",
+    "Clean MP4 output for easy playback and archiving",
+    "Shooshtime-specific host matching for shooshtime.com and its subdomains",
+    "Button-driven download entry point on supported video pages",
+    "Media detection that activates after the player loads",
+    "Quality selection when the page exposes multiple media variants",
+    "Popup interface for reviewing detected options",
+    "In-page download progress manager",
+    "Context menu support for quick access on video pages",
+    "Clean MP4 output for standard playback"
+  ],
+  "content": {
+    "why": [
+      "Shooshtime video pages do not always expose a simple right-click-save file. The final media URL often appears only after the player initializes, and generic download tools may pick up previews, thumbnails, or other non-video requests instead of the actual content you want. This makes it difficult to save videos directly from the browser without extra steps.",
+      "Shooshtime Downloader solves this by working inside the Shooshtime page flow. It matches Shooshtime host patterns, detects media after the player has loaded, and presents the available options through a clear button-driven interface. You stay inside the browser the whole time, with no need to copy URLs into external tools or desktop downloaders."
+    ],
+    "how_it_works": [
+      "Install the extension from the latest release.",
+      "Open Shooshtime and go to a supported video page.",
+      "Start playback so the extension can detect the media.",
+      "Open the popup or use the on-page controls.",
+      "Choose the quality option you want.",
+      "Start the download and wait for the MP4 export to finish.",
+      "Save the final file locally."
+    ],
+    "tutorial": [
+      "Open your browser and install Shooshtime Downloader from the latest GitHub release.",
+      "Navigate to Shooshtime and find a video you want to save.",
+      "Click on the video to open its dedicated watch page.",
+      "Press play so the Shooshtime player initializes and loads the media.",
+      "Look for the download button that appears on the video page.",
+      "Click the button or open the extension popup to see detected media options.",
+      "Select your preferred quality from the available choices.",
+      "Click download and wait for the file to save to your computer."
+    ],
+    "supported_formats": [
+      "Input: Supported video sources as exposed by the Shooshtime player on compatible watch pages",
+      "Output: MP4",
+      "Saved files use MP4 so they are easier to replay on standard media players, move between devices, or archive locally."
+    ],
+    "target_users": [
+      "Shooshtime viewers who want to save videos for offline playback",
+      "Users who prefer browser extensions over external downloader sites",
+      "People who need to archive Shooshtime content they have rights to keep",
+      "Anyone looking for a button-driven download workflow on video pages"
+    ],
+    "use_cases": [
+      "Save a Shooshtime video to watch later without an internet connection",
+      "Keep a personal copy of content you have permission to archive",
+      "Avoid copying URLs into third-party downloader websites",
+      "Download media directly from the video page without desktop tools",
+      "Review available quality options before saving a file"
+    ],
+    "troubleshooting": [
+      "The download button does not appear on the video page. Make sure the video player has fully loaded and playback has started. The extension needs the player to initialize before it can detect media.",
+      "The extension says no media was detected. Try refreshing the page and starting playback again. Some videos may take a moment to expose their media sources after the player loads.",
+      "The download starts but fails partway through. Check your internet connection and make sure the Shooshtime page remains open during the download. A stable connection helps ensure complete file transfers.",
+      "I cannot see the extension popup. Verify the extension is installed correctly and pinned to your browser toolbar. You may need to restart your browser after installation.",
+      "The quality options do not match what I expected. The extension shows only the media variants that the Shooshtime player exposes on that specific video page. Available qualities depend on the source file."
+    ],
+    "trial_access": [
+      "Includes 3 free downloads so you can test the workflow first",
+      "Email sign-in uses secure one-time password verification",
+      "No credit card required for the trial",
+      "Unlimited downloads are available with a paid license"
+    ],
+    "installation_instructions": [
+      "Open the latest release page.",
+      "Download the correct build for your browser.",
+      "Install the extension.",
+      "Open a supported Shooshtime page.",
+      "Use the popup to detect and download the media."
+    ],
+    "notes": [
+      "Only download content you own or have explicit permission to save",
+      "An internet connection is required for downloads",
+      "The extension works best when the Shooshtime player has fully loaded before detection",
+      "Supported media options depend on what the page exposes"
+    ],
+    "about": [
+      "Shooshtime is a video-sharing platform that hosts a wide variety of content across many categories. Shooshtime Downloader helps users save supported videos directly from the browser for offline access and personal archiving."
+    ]
+  },
+  "serpx_link": "https://serpx.link/shooshtime-downloader",
+  "github_topics": [
+    "shooshtime-download",
+    "shooshtime-downloader",
+    "shooshtime-video-downloader",
+    "shooshtime-video-downloader-online",
+    "shooshtime-video-downloader-mac",
+    "shooshtime-video-downloader-window",
+    "shooshtime-video-downloader-free",
+    "shooshtime-video-downloader-extension",
+    "shooshtime-video-downloader-app",
+    "shooshtime-video-downloader-chrome",
+    "shooshtime-video-downloader-from-url",
+    "how-to-download-shooshtime-videos",
+    "how-to-download-shooshtime-videos-mac",
+    "how-to-download-shooshtime-videos-windows",
+    "how-to-download-shooshtime-videos-online",
+    "how-to-download-shooshtime-videos-free",
+    "how-to-download-from-shooshtime",
+    "how-to-download-videos-from-shooshtime",
+    "download-shooshtime-videos",
+    "shooshtime-video-tutorial",
+    "save-shooshtime-videos",
+    "shooshtime-video-content-saver",
+    "how-to-download-shooshtime-videos-for-free"
+  ],
+  "hashtags": [
+    "#ShooshtimeDownload",
+    "#ShooshtimeDownloader",
+    "#ShooshtimeVideoDownloader",
+    "#ShooshtimeVideoDownloaderOnline",
+    "#ShooshtimeVideoDownloaderMac",
+    "#ShooshtimeVideoDownloaderWindow",
+    "#ShooshtimeVideoDownloaderFree",
+    "#ShooshtimeVideoDownloaderExtension",
+    "#ShooshtimeVideoDownloaderApp",
+    "#ShooshtimeVideoDownloaderChrome",
+    "#ShooshtimeVideoDownloaderFromURL",
+    "#HowToDownloadShooshtimeVideos",
+    "#HowToDownloadShooshtimeVideosMac",
+    "#HowToDownloadShooshtimeVideosWindows",
+    "#HowToDownloadShooshtimeVideosOnline",
+    "#HowToDownloadShooshtimeVideosFree",
+    "#HowToDownloadFromShooshtime",
+    "#HowToDownloadVideosFromShooshtime",
+    "#DownloadShooshtimeVideos",
+    "#ShooshtimeVideoTutorial",
+    "#SaveShooshtimeVideos",
+    "#ShooshtimeVideoContentSaver",
+    "#HowToDownloadShooshtimeVideosForFree"
+  ],
+  "youtube_tags": [
+    "Shooshtime Download",
+    "Shooshtime Downloader",
+    "Shooshtime Video Downloader",
+    "Shooshtime Video Downloader Online",
+    "Shooshtime Video Downloader Mac",
+    "Shooshtime Video Downloader Window",
+    "Shooshtime Video Downloader Free",
+    "Shooshtime Video Downloader Extension",
+    "Shooshtime Video Downloader App",
+    "Shooshtime Video Downloader Chrome",
+    "Shooshtime Video Downloader From URL",
+    "How To Download Shooshtime Videos",
+    "How To Download Shooshtime Videos Mac",
+    "How To Download Shooshtime Videos Windows",
+    "How To Download Shooshtime Videos Online",
+    "How To Download Shooshtime Videos Free",
+    "How To Download From Shooshtime",
+    "How To Download Videos From Shooshtime",
+    "Download Shooshtime Videos",
+    "Shooshtime Video Tutorial",
+    "Save Shooshtime Videos",
+    "Shooshtime Video Content Saver",
+    "How To Download Shooshtime Videos For Free"
+  ]
+}
